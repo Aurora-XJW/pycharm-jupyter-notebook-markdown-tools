@@ -41,7 +41,7 @@ Version 0.1.1 declares compatibility with PyCharm **2024.3 through 2026.3** (`24
 1. In PyCharm, open **Settings → Plugins → Marketplace** and search for **Jupyter Notebook Markdown Tools**.
 2. Select **Install** and follow PyCharm's prompts. Open a Markdown cell in a local `.ipynb` notebook to start using the plugin.
 
-To install a ZIP built from this repository, open the gear menu in **Settings → Plugins**, choose **Install Plugin from Disk…**, and select the ZIP directly. The older [GitHub release v0.1.0](https://github.com/Aurora-XJW/pycharm-jupyter-notebook-markdown-tools/releases/tag/v0.1.0) supports IDE builds through `253.*`.
+To install a ZIP built from this repository, open the gear menu in **Settings → Plugins**, choose **Install Plugin from Disk…**, and select the ZIP directly.
 
 Find project options under **Settings → Tools → Jupyter Notebook Markdown Tools**. The **Tools → Jupyter Notebook Markdown Tools** menu also includes cleanup, recovery, and attachment export.
 

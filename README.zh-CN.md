@@ -41,7 +41,7 @@
 1. 在 PyCharm 中打开 **Settings → Plugins → Marketplace**，搜索 **Jupyter Notebook Markdown Tools**。
 2. 点击 **Install** 并按提示完成安装。打开本地 `.ipynb` 的 Markdown 单元即可使用。
 
-安装从本仓库构建的 ZIP 时，在 **Settings → Plugins** 点击齿轮，选择 **Install Plugin from Disk…**，直接选中 ZIP。原有的 [GitHub v0.1.0 发布包](https://github.com/Aurora-XJW/pycharm-jupyter-notebook-markdown-tools/releases/tag/v0.1.0) 支持到 `253.*`。
+安装从本仓库构建的 ZIP 时，在 **Settings → Plugins** 点击齿轮，选择 **Install Plugin from Disk…**，直接选中 ZIP。
 
 项目设置位于 **Settings → Tools → Jupyter Notebook Markdown Tools**。手动清理、恢复和附件导出位于 **Tools → Jupyter Notebook Markdown Tools**。
 

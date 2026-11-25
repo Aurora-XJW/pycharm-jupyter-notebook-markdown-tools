@@ -4,7 +4,7 @@
 
 在 PyCharm 的本地 Jupyter Notebook 中粘贴图片、编辑 Markdown 格式。
 
-**版本 0.1.0** · **开发者 Xu.J.W**
+**版本 0.1.1** · **开发者 Xu.J.W**
 
 ## 功能
 
@@ -34,15 +34,30 @@
 
 ## 兼容范围
 
-适用于 Windows 上的本地 Notebook 项目，支持 PyCharm **2024.3**（最低构建 `243.21565.199`）至 **2025.3**。请在 PyCharm 中启用 **Jupyter**、**Notebook Files** 和 **Markdown**。
+0.1.1 面向 Windows 上的本地 Notebook 项目，声明兼容 PyCharm **2024.3 至 2026.3**（`243.21565.199 — 263.*`）。请在 PyCharm 中启用 **Jupyter**、**Notebook Files** 和 **Markdown**。各版本的上架状态见 [Marketplace 插件页面](https://plugins.jetbrains.com/plugin/36359-jupyter-notebook-markdown-tools)。
 
 ## 安装
 
-1. 打开本仓库的 **Releases**，在 **Assets** 中下载 `pycharm-jupyter-notebook-markdown-tools-0.1.0.zip`。
-2. 在 PyCharm 中进入 **Settings → Plugins**，点击齿轮，选择 **Install Plugin from Disk…**。
-3. 直接选择 ZIP 文件，安装后重启 PyCharm。打开本地 `.ipynb` 的 Markdown 单元即可开始使用。
+1. 在 PyCharm 中打开 **Settings → Plugins → Marketplace**，搜索 **Jupyter Notebook Markdown Tools**。
+2. 点击 **Install** 并按提示完成安装。打开本地 `.ipynb` 的 Markdown 单元即可使用。
+
+安装从本仓库构建的 ZIP 时，在 **Settings → Plugins** 点击齿轮，选择 **Install Plugin from Disk…**，直接选中 ZIP。原有的 [GitHub v0.1.0 发布包](https://github.com/Aurora-XJW/pycharm-jupyter-notebook-markdown-tools/releases/tag/v0.1.0) 支持到 `253.*`。
 
 项目设置位于 **Settings → Tools → Jupyter Notebook Markdown Tools**。手动清理、恢复和附件导出位于 **Tools → Jupyter Notebook Markdown Tools**。
+
+## 构建与贡献
+
+下面的源码构建示例使用 Windows、PowerShell 7 和本地 PyCharm 2025.3 SDK。将 `-IdeHome` 指向包含 `product-info.json` 的目录。
+
+```powershell
+.\build.ps1 -IdeHome 'D:\PyCharm 2025.3'
+```
+
+构建会运行回归测试，并在 `dist/` 下生成可安装的 ZIP。开发环境、测试命令和目录说明见[贡献指南](CONTRIBUTING.md)。
+
+## 许可证
+
+插件源码及项目自编文档采用 [MIT 许可证](LICENSE)。第三方标识与素材适用各自的条款，来源见[图标说明](docs/branding/README.md)。
 
 ## 反馈
 

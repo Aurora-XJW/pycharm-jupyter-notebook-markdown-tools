@@ -1,10 +1,10 @@
-# Pycharm Jupyter Notebook Markdown Tools
+# Jupyter Notebook Markdown Tools
 
 **English** | [简体中文](README.zh-CN.md)
 
 Paste images and format Markdown in local Jupyter notebooks in PyCharm.
 
-**Version 0.1.0** · **Xu.J.W**
+**Version 0.1.1** · **Xu.J.W**
 
 ## Features
 
@@ -34,15 +34,30 @@ Paste images and format Markdown in local Jupyter notebooks in PyCharm.
 
 ## Compatibility
 
-PyCharm **2024.3** (build `243.21565.199` or later in that release) through **2025.3** on Windows, with a local notebook project. Enable **Jupyter**, **Notebook Files**, and **Markdown** in PyCharm.
+Version 0.1.1 declares compatibility with PyCharm **2024.3 through 2026.3** (`243.21565.199 — 263.*`) for notebooks in local Windows projects. Enable **Jupyter**, **Notebook Files**, and **Markdown** in PyCharm. See the [Marketplace listing](https://plugins.jetbrains.com/plugin/36359-jupyter-notebook-markdown-tools) for version availability.
 
 ## Installation
 
-1. Open **Releases** in this repository and download `pycharm-jupyter-notebook-markdown-tools-0.1.0.zip` from **Assets**.
-2. In PyCharm, go to **Settings → Plugins**, click the gear icon, and choose **Install Plugin from Disk…**.
-3. Select the ZIP directly and restart PyCharm. Open a Markdown cell in a local `.ipynb` notebook to start using the plugin.
+1. In PyCharm, open **Settings → Plugins → Marketplace** and search for **Jupyter Notebook Markdown Tools**.
+2. Select **Install** and follow PyCharm's prompts. Open a Markdown cell in a local `.ipynb` notebook to start using the plugin.
+
+To install a ZIP built from this repository, open the gear menu in **Settings → Plugins**, choose **Install Plugin from Disk…**, and select the ZIP directly. The older [GitHub release v0.1.0](https://github.com/Aurora-XJW/pycharm-jupyter-notebook-markdown-tools/releases/tag/v0.1.0) supports IDE builds through `253.*`.
 
 Find project options under **Settings → Tools → Jupyter Notebook Markdown Tools**. The **Tools → Jupyter Notebook Markdown Tools** menu also includes cleanup, recovery, and attachment export.
+
+## Build and contribute
+
+Use PowerShell 7 on Windows and a local PyCharm 2025.3 SDK for the example build below. Point `-IdeHome` to the directory that contains `product-info.json`.
+
+```powershell
+.\build.ps1 -IdeHome 'D:\PyCharm 2025.3'
+```
+
+The build runs the regression tests and creates an installable ZIP under `dist/`. See the [contribution guide](CONTRIBUTING.md) for the full setup, test commands, and source layout.
+
+## License
+
+The plugin code and project-authored documentation are available under the [MIT License](LICENSE). Third-party marks and materials retain their applicable terms. See [branding credits](docs/branding/README.md).
 
 ## Feedback
 

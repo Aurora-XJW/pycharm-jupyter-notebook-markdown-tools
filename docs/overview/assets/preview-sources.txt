@@ -1,0 +1,11 @@
+Screenshots captured by Xu.J.W in the English interface of PyCharm.
+The full/ files are byte-for-byte copies of the seven supplied PNGs.
+The root PNGs are crops of those originals, prepared for inline Overview display.
+
+image-paste.png <- 2026-11-19_231849.png | Save Notebook Image dialog
+text-color-toolbar.png <- 2026-11-19_232130.png | Text Color action in the selection toolbar
+text-color.png <- 2026-11-19_232153.png | Text Color dialog
+text-color-markup.png <- 2026-11-19_232203.png | Resulting HTML color markup
+insert-menu.png <- 2026-11-19_232237.png | Double-Alt Markdown insertion menu
+blank-lines.png <- 2026-11-19_232246.png | Insert Visible Blank Lines dialog
+markdown-table.png <- 2026-11-19_232334.png | Insert Markdown Table dialog

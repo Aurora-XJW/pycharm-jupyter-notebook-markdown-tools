@@ -1,0 +1,56 @@
+<p>Markdown editing tools for Jupyter notebooks in PyCharm: manage images, set text colors, insert visible blank lines, and build tables.</p>
+<h2>English</h2>
+<p>Edit Markdown in local PyCharm Jupyter notebooks. The screenshots show the plugin's English interface in PyCharm. The offline overview includes the full captures.</p>
+<h3>1. Paste and manage images</h3>
+<p>Press Ctrl+V in a Markdown edit cell to paste a clipboard image or one PNG/JPEG/BMP file. Confirm the project folder, sequential filename and display size in pixels or percent. Keep the aspect ratio and remember the folder and width. Saved PNGs retain their original pixels and transparency.</p>
+<p>{{image:images}}</p>
+<p>Figure 1. Save Notebook Image, showing the project folder, numbered filename and display size.</p>
+{{original:images}}
+<ul>
+<li>Organize images by each notebook's project-relative path and insert relative references.</li>
+<li>On save, check notebook, Markdown and HTML references. Recycle unused, unchanged plugin-managed images; retain shared images and files edited externally.</li>
+<li>Restore images when undo brings references back. Tools → Jupyter Notebook Markdown Tools provides manual cleanup, recovery and export of attachments in the current Markdown cell.</li>
+<li>Set the image directory, default width, paste dialog and automatic cleanup in Settings → Tools → Jupyter Notebook Markdown Tools.</li>
+</ul>
+<h3>2. Text color</h3>
+<p>Select Markdown text and choose Text Color… from the floating toolbar or context menu. Pick a palette color or enter #RRGGBB to insert inline HTML color markup. Supported older IDEs use a separate selection popup when the native Notebook toolbar is unavailable.</p>
+<p>{{image:color-toolbar}}</p>
+<p>Figure 2. The Text Color action in the floating selection toolbar.</p>
+{{original:color-toolbar}}
+<p>{{image:color}}</p>
+<p>Figure 3. The Text Color dialog and preset swatches.</p>
+{{original:color}}
+<p>{{image:color-markup}}</p>
+<p>Figure 4. The HTML color markup inserted into the Markdown cell.</p>
+{{original:color-markup}}
+<h3>3. Visible blank lines</h3>
+<p>Double-tap Alt on an empty Markdown edit line and choose Insert Blank Lines…. Enter 1–100 to insert &lt;br&gt; markers visible in preview. Line height follows the notebook theme and font. Ctrl+Alt+Shift+M also opens the insertion menu.</p>
+<p>{{image:insert-menu}}</p>
+<p>Figure 5. The double-Alt menu for inserting blank lines or a table.</p>
+{{original:insert-menu}}
+<p>{{image:blank-lines}}</p>
+<p>Figure 6. The Insert Visible Blank Lines dialog and its 1–100 range.</p>
+{{original:blank-lines}}
+<h3>4. Visual table editor</h3>
+<p>Double-tap Alt on an empty Markdown line and choose Add Table…. Edit headers and data, add or remove rows and columns, paste Excel/TSV data and edit multiline cells. Confirm to generate escaped Markdown table code. Supports 500 data rows and 50 columns.</p>
+<p>{{image:table}}</p>
+<p>Figure 7. The Insert Markdown Table dialog, showing the editable grid.</p>
+{{original:table}}
+<p>Markdown output from the example in Figure 7:</p>
+<pre>{{table-markdown}}</pre>
+<p>Color, blank-line and table changes support undo. Cancelling leaves the document unchanged. Cell boundaries, HTML attributes, fenced code and inline code are checked to protect existing syntax.</p>
+<h3>Requirements</h3>
+<p>Windows projects on local disks; PyCharm 2024.3 (minimum build 243.21565.199) through 2026.3, with Jupyter, Notebook Files and Markdown enabled. Light and dark icons are included. Images and records stay local; the plugin runtime has no upload or telemetry function.</p>
+<h2>中文</h2>
+<p>用于 PyCharm 本地 Jupyter Notebook 的 Markdown 编辑。使用界面的菜单、弹窗、设置和提示均为英文。</p>
+<h3>1. 图片粘贴与管理</h3>
+<p>在 Markdown 编辑单元中按 Ctrl+V 粘贴剪贴板图片或单个 PNG/JPEG/BMP 文件。保存前确认项目内目录、顺序编号文件名和展示尺寸，支持像素、百分比、保持比例及记住目录和宽度；PNG 保留原始像素与透明度。</p>
+<p>按 Notebook 的项目相对路径分目录保存，插入相对引用。保存相关文档后检查 Notebook、Markdown 和 HTML 引用，仅回收未被修改的无引用插件图片；保留共享引用和外部修改的文件。撤销删除使引用恢复时自动恢复图片。Tools → Jupyter Notebook Markdown Tools 提供手动清理、恢复和当前单元附件导出；Settings → Tools → Jupyter Notebook Markdown Tools 中可设置目录、宽度、粘贴窗口及自动回收。</p>
+<h3>2. 文字颜色</h3>
+<p>选中文字，在浮动工具栏或右键菜单选择 Text Color…，使用调色板或输入 #RRGGBB，生成内嵌 HTML 颜色标记。没有原生 Notebook 浮动工具栏的受支持旧版 IDE 使用独立选区浮窗。</p>
+<h3>3. 预览空行</h3>
+<p>在空白 Markdown 编辑行快速按放两次 Alt，选择 Insert Blank Lines…，输入 1–100 行，生成预览可见的 &lt;br&gt;。行高随 Notebook 主题和字体变化，也可用 Ctrl+Alt+Shift+M 打开插入菜单。</p>
+<h3>4. 可视化表格</h3>
+<p>在空白 Markdown 行双击 Alt，选择 Add Table…。网格支持表头编辑、增减行列、Excel/TSV 粘贴及多行单元格，确认后生成自动转义的 Markdown 表格；最多 500 行数据、50 列。上述格式编辑支持撤销，取消弹窗不改动文档，并校验单元边界、HTML 属性及代码区域。</p>
+<h3>使用环境</h3>
+<p>Windows 本机磁盘项目，PyCharm 2024.3（最低构建 243.21565.199）至 2026.3，需要启用 Jupyter、Notebook Files 和 Markdown。图标适配浅色和深色主题，图片和管理记录在本机处理，插件运行代码不包含上传或遥测功能。</p>

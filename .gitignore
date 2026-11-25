@@ -1,0 +1,10 @@
+.build/
+dist/
+output/
+.gradle/
+.idea/
+*.iml
+__pycache__/
+*.pyc
+*.pyo
+tools/dependencies/*.jar

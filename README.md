@@ -2,12 +2,12 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-Paste images and format Markdown in local Jupyter notebooks in PyCharm.
+Edit Markdown in local Jupyter notebooks in PyCharm. Paste an image to get a suggested save location and an automatically generated image reference. Use visual controls to set text colors, insert blank lines, and create tables with less hand-written Markdown and HTML.
 
 **Version 0.1.1** 
 ## Features
 
-- **Paste images** from the clipboard or a single PNG, JPEG, or BMP file. Save them as numbered PNGs in your project, adjust their display size, and insert a relative link. The saved image keeps its original resolution.
+- **Paste and manage images.** Paste an image from the clipboard or a single PNG, JPEG, or BMP file. The plugin suggests a save folder based on the notebook’s location in the project. Confirm or change the folder and display size in the dialog. The plugin saves a numbered PNG at the original resolution and automatically inserts a relative image reference into the Markdown cell.
 
   ![Save Notebook Image dialog showing the folder, filename, and display size](assets/image-paste.png)
 

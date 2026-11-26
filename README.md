@@ -4,7 +4,7 @@
 
 Paste images and format Markdown in local Jupyter notebooks in PyCharm.
 
-**Version 0.1.1** · **Xu.J.W**
+**Version 0.1.1** ·
 
 ## Features
 

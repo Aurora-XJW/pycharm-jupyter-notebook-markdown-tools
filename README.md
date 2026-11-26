@@ -4,8 +4,7 @@
 
 Paste images and format Markdown in local Jupyter notebooks in PyCharm.
 
-**Version 0.1.1** ·
-
+**Version 0.1.1** 
 ## Features
 
 - **Paste images** from the clipboard or a single PNG, JPEG, or BMP file. Save them as numbered PNGs in your project, adjust their display size, and insert a relative link. The saved image keeps its original resolution.

@@ -4,7 +4,7 @@
 
 在 PyCharm 的本地 Jupyter Notebook 中粘贴图片、编辑 Markdown 格式。
 
-**版本 0.1.1** · **开发者 Xu.J.W**
+**版本 0.1.1** 
 
 ## 功能
 
